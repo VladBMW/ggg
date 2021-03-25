@@ -1,0 +1,959 @@
+
+
+
+header{
+    background-image: url("img/Archive/headerPhoto.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 813px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-circle  {
+    width: 60px;
+    height: 60px;
+    background-color: #8488a5;
+    border-radius: 100%;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border: 0;
+    margin-top: 50px;
+   
+   
+}
+.btn-circle:active{
+    box-shadow: 0 0 20px 1px black;
+}
+.rectangle-red:active{
+    box-shadow: 0 0 20px 1px black;
+}
+.play{
+    margin-top: 17px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3px;
+    
+}
+.rectangle-red{
+    width: 190px;
+    height: 50px;
+    background-color: #ff6d6d;
+    outline: none;
+    border: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.rectangle-red-text{
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 3px;
+    line-height:50px;
+    font-size: 22px;
+}
+.text-under{
+    color: #949497;
+    font-family: 'Exo', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    font-size: 12pt;
+    line-height:56px;
+    letter-spacing: -0.5px;
+
+    
+    
+}
+.main-text{
+    color: #8c8c8f;
+    font-family: 'Exo', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    font-size: 50pt;
+    line-height:75pt;
+    letter-spacing: 0.4pt;
+}
+.text-up{
+    margin-top: 140px;
+}
+
+ .red-mark{
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 16pt;
+    line-height:50pt;
+    letter-spacing: 2px;
+    color: #ff6d6d;
+    
+    margin-top: 190px;
+    margin-bottom: 0;
+ } 
+ .slogan{
+    font-family: 'Exo', sans-serif;
+    font-weight: 500; 
+    font-size: 40pt;
+    line-height:50pt;
+    letter-spacing: 0.4px;
+    color: #282828;
+   
+    margin-top: 0;
+    margin-bottom: 0;
+ }
+ .redDot{
+     color:#ff6d6d;
+ }
+ .text-fish{
+     color: #282828;
+     opacity: 66%;
+     font-family: 'Exo', sans-serif;
+    font-weight: 500; 
+    font-size: 13pt;
+    line-height:23pt;
+    
+    width: 100%;
+ }
+.slogan-down{
+    margin-bottom: 30px;
+}
+.Description{
+    position: relative;
+}
+
+.img-description{
+    width: 566px;
+    height: 725px;
+   
+    
+  
+    
+   
+}
+.rel{
+    position: relative  ;
+   
+}
+
+
+.gg , .tt{
+   
+    
+right: 0;
+
+    position: absolute;
+    
+   
+
+}
+
+.img-red-rectangle{
+   
+    position: absolute;
+    width: 566px;
+    height: 485px;
+   bottom: 60px;
+   left: 0;
+    
+    
+}
+
+
+
+.dark-section{
+    background-color: #f6f5f3;
+    z-index: 11;
+    position: relative;
+}
+  
+.red-markOfSection3{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+.sloganOfSection3{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.penHolder{
+    width: 185px;
+    height: 235px;
+    
+    
+}
+.dd{
+    margin-top: 65px;
+}
+.earphones{
+    width: 200px;
+    height: 266px;
+    float: right;
+    
+}
+.naturePicture{
+    display: block;
+    margin: auto;
+    margin-top: 85px;
+    
+}
+.titleOfGroup{
+    color: #282828;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500; 
+    font-size: 22pt;
+    line-height:50pt;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    letter-spacing: 0.4px;
+    margin-bottom: 0;
+}
+.text-fishofSection3{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.center{
+    display: flex;
+    justify-content: center;
+   
+}
+.cupofCoffe{
+    margin-left: 300px;
+    margin-top: 50px;
+    
+}
+
+.macbook{
+    width: 600px;
+    height: 350px;
+    margin-top: 120px;
+    left: 5%;
+    z-index: 10;
+    position: absolute;
+    
+   
+}
+.red-rectangle-2{
+  
+    height: 570px;
+    width: 758px;
+    bottom: 0;
+   left: 0;
+   z-index: 3;
+    
+}
+.tt{
+    left: 0;
+    z-index: 3;
+}
+
+.less-margin{
+    
+    margin-left: 30px;
+}
+.mt{
+    margin-top: 120px;
+}
+.picture-left{
+    height: 400px;
+}
+.Clients{
+    margin-top: 35px !important;
+    background-image: url("img/Archive/BGOfClients.jpg");
+    padding-bottom: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.photoOfHuman{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: auto;
+    margin-top: 110px;
+}
+.nameOfHuman{
+    color: white;
+    margin-top: 20px;
+    font-size: 18pt;
+    line-height: 40pt;
+}
+.underNameOfHuman{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 12pt;
+    line-height: 30pt;
+    margin-bottom: 10px;
+}
+ .textFishOfHuman{
+     font-size: 12pt;
+     line-height: 23pt;
+     letter-spacing: 0.4px;
+     
+     
+    
+ } 
+.logo{
+    margin-right: 60px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.mr{
+    margin-right: 0;
+}
+.titleOfBrowser{
+    margin: 0;
+    
+}
+
+.menuOfMacbook{
+    margin-top: 80px;
+    box-shadow: 0 0 30px -5px black;
+    
+    width: 685px;
+}
+.dontMArgin{
+    margin: 0;
+}
+.up{
+    margin-top: 65px;
+
+}
+.down{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.TryNow{
+    
+    background-image: url("img/Archive/blueRectangle.jpg");
+    margin-top: -10px;
+    padding-top: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.discount{
+    font-family: 'Exo', sans-serif;
+    font-weight:400;
+    font-size: 13pt;
+    line-height:50pt;
+    letter-spacing: 0.4px;
+    color: #f6f5f3;
+    float: right;
+    margin-right: 50px;
+    
+    
+}
+.arrow{
+    margin-top: 30px;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.form-control-lg{
+    width: 260px !important;
+    background-color: rgba(255, 255, 255, 0.1) !important; 
+     color: #f6f5f3 !important; 
+    
+    border: 1px solid #999cb4 !important;
+    
+    
+}
+.name{
+     
+    margin-right: 10px;
+   
+    
+    
+}
+
+.EMAIL{
+  margin-left: 20px;
+  
+
+}
+.PASSWORD{
+    margin-left: 30px;
+    
+}
+.over1000{
+    font-size: 35pt;
+}
+.btnTryNow{
+    width: 260px;
+    height: 50px;
+    border-radius: 5px;
+    color: #ff6d6d;
+    margin-left: 30px;
+    margin-top: 0;
+}
+.textOfTryNow{
+    font-size:16pt !important ;
+   
+}
+.btnTryNow:active{
+    box-shadow: 0 0 30px -5px black;
+}
+.underForms{
+    font-weight: 400;  
+    color: #b8b9c3;
+    letter-spacing: 0.4px;
+    margin: 0;
+    font-size: 13pt;
+    line-height: 75pt;
+    margin-bottom: 50px;
+}
+.a{
+    
+    color: #b8b9c3 !important;
+
+}
+.link{
+    text-decoration: none !important;
+    color: #8a8a8a !important;
+}
+
+.about{
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    color: #9e9e9e;
+    letter-spacing:0.4px;
+    line-height:26pt;
+    font-size: 14pt;
+    opacity: 56%;
+    width: 80%;
+}
+.support{
+    margin-top: 70px;
+    display: flex;
+    justify-content: start;
+}
+.underSupport{
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    color: #8a8a8a;
+    letter-spacing:0.4px;
+    line-height:25pt;
+    font-size: 12pt;
+    opacity: 66%;
+    
+}
+
+.logo-of-footer{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 26pt;
+    line-height: 33pt;
+    color: #2c2f49;
+    margin-top: 80px;
+   
+    margin-bottom: 15px;
+
+}
+.ex{
+    background-image: url("img/Archive/redPlay.gif");
+    color: white;
+    display: inline;
+    margin-left: 0 !important;
+    
+    
+}
+.button-of-footer{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: -55px;
+    box-shadow: 0px 8px 12px -5px black;
+    background-color: #ff6d6d !important;
+    border-color:  #ff6d6d !important;
+    
+    
+}
+.subscribe{
+    float: left;
+   
+}
+.input-of-footer{
+   
+   outline-color: gray !important;
+}
+.social-icon{
+    margin-left: 25px;
+}
+
+#width{
+    width: 600px;
+}
+.logoImg{
+    margin-left: 40px;
+}
+
+
+
+@media (max-width: 991.98px) { 
+    
+    .img-description , .tt , .gg{
+        display: none;
+    }
+    .slogan{
+        font-size: 35pt !important;
+    }
+    .text-fish{
+        width: 100% !important;
+    }
+    .dd , .red-markOfSection3{ margin-top: 0 !important;}
+    .pen-holder{margin-bottom: 0;}
+
+    .main-text{
+        font-size: 40pt;
+    }
+     .picture-right ,.picture-left{
+        display: none;
+        
+    }
+    .Description {
+        margin-bottom: 50px;
+    }
+    .text-fishofSection3{
+        text-align: center;
+    }
+   
+     .red-mark{
+        margin-top: 30px;
+    }
+    .cupofCoffe{
+        float: right;
+    }
+    .red-rectangle-2{
+        left: -100px;
+    }
+    .logoImg{
+        margin-left: 0;
+    }
+    .logo1{
+        margin-left: 150px;
+    }
+    .logo3{
+        margin-left: 60px;
+    }
+    .over1000{
+        font-size: 30pt;
+    }
+    .discount{
+        margin-right: 0;
+    }
+    .name , .PASSWORD{
+        float: left;
+        margin-left: 50px;
+    }
+    .EMAIL , .rght{
+        float: right;
+        margin-right: 50px;
+        margin-top: 15px;
+    }
+    
+    .form-control-lg{
+        margin-top: 15px;
+    }
+    .Start , .about{
+        width: 100% !important;
+        text-align: center;
+    }
+    .logo-of-footer{
+        font-size: 35pt;
+    }
+    .ex{
+        font-size: 26pt;
+    }
+    .sub {
+        padding-left: 30px !important;
+    }
+    .titleOfGroup{
+        font-size: 25pt !important;
+    }
+    .textFishOfHuman {
+        font-size: 10pt !important;
+    }
+    .text-fishofSection3{
+        font-size: 12pt !important;
+    }
+    .underNameOfHuman{
+        line-height: 20pt;
+    }
+    
+    
+    
+    
+    
+   
+ }
+ @media (max-width: 767.98px) { 
+
+    .main-text , .slogan{
+        font-size: 30pt !important;
+        margin-left: 0;
+    }
+    .red-mark , .text-fish{
+        margin-left: 0;
+       
+    }
+    .red-mark{
+        margin-top: 100px;
+    }
+    .rectangle-red{
+        width: 150px;
+        margin-top: 30px;
+        
+    }
+    .rectangle-red-text{
+        font-size: 18px;
+    }
+    .btn-circle{
+        margin-top: 20px;
+    }
+    .logoImg{
+        margin-left: 20px;
+    }
+    .menuOfMacbook {
+        width: 100%;
+    }
+    .name , .EMAIL , .PASSWORD , .rght{
+        margin: auto;
+        width: 100%;
+        float: none;
+        margin-bottom:10px ;
+    }
+    .rght{
+      margin-top: 20px;  
+      width: 50%;
+    }
+   
+    
+    .red-markOfSection3{
+        margin-top: 0;
+    } 
+    
+    .text-fishofSection3{
+        font-size: 12pt !important;
+    }
+    .naturePicture{
+        width: 80px;
+    }
+    
+    .sub {
+      padding-left: 0 !important; 
+    }
+    .AboutUs {
+       
+        text-align: right !important;
+       
+  }
+  .ab{
+      margin-left: 95px;
+  }
+    
+    .Start{
+        text-align: center;
+    }
+    .about{
+        width: 100%;
+    }
+    
+
+    
+    
+
+  }
+  @media (max-width: 575.98px) { 
+
+    .main-text , .slogan{
+        font-size: 25pt !important;
+        margin-left: 0;
+    }   
+    .rectangle-red{
+        width: 130px;
+        
+        
+    }
+    .rectangle-red-text{
+        font-size: 15px;
+    }
+    .red-mark {
+        font-size: 13pt;
+    }
+    #width{
+        width: 100%;
+    }
+    .logoImg {
+        margin-left: 0;
+        text-align: center;
+    }
+    .logo1 {
+       
+        margin-left: 70px;
+    }
+    .logo3{
+        margin-left: 110px;
+    }
+    .logo4{
+        margin-right: 0 !important;
+    }
+    .logo , .first-logo , .last-logo{
+        
+        display: inline-block !important;
+    }
+    .last-logo{
+        margin-top: 70px;
+    }
+    .rght{
+        margin-top: 20px;  
+        width: 80%;
+      }
+      .underForms {
+        font-size: 12pt;
+      }
+      .Start{
+          text-align: center;
+      }
+      .about{
+         width: 100%;
+      }
+        .support , .underSupport , .titleOfGroup , .subscribe , .sub {
+            text-align: center !important;
+            margin-left: 0;
+            float: none;    
+        }
+        .support{
+            display: flex;
+         justify-content: center;
+        }
+    
+
+   }
+   @media (max-width: 1199.98px) { 
+
+    
+    .red-rectangle-2{
+        margin-bottom: -590px;
+        width: 658px;
+    }
+
+
+    .slogan{
+        font-size: 30pt;
+    }
+    .titleOfGroup{
+        font-size: 18pt;
+    }
+    .text-fishofSection3 , .textFishOfHuman {
+        font-size: 10pt;
+    }
+    .cupofCoffe{
+        float: right;
+        margin: 0;
+    }
+    .macbook{
+     width: 500px;
+     height: 300px;
+     margin-left: 0;
+     top: 20%;
+    }
+    #width{
+        width: 100%;
+    }
+    
+    .Clients{
+        margin-top: 0 !important;
+    }
+    .logo3{
+        margin-right: 140px !important;
+    }
+    .last-logo {
+        display: flex;
+        justify-content: center;
+    }
+    .logo4 {
+        margin-left: 0;
+        margin-right: 120px;
+       
+    }
+    .first-logo{
+        display: flex;
+        justify-content: center;
+        height:45%;
+    }
+    .rght {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+     
+
+    }
+    @media (max-width: 1200px) { 
+        
+        
+        .text-fishofSection3{
+            width: 100% !important;
+        }
+        
+        .slogan{
+            font-size: 25pt;
+        }
+        .red-rectangle-2{
+            top: -25px !important;
+        }
+        .macbook{
+            margin-top: 150px;
+        }
+        .less-margin , .titleOfBrowser {
+            width: 100% !important;
+        }
+    }
+
+    @media (min-width: 1200px) { 
+
+        .red-rectangle-2 {
+            margin-bottom: -540px;
+        }
+   
+
+        .slogan{
+            font-size: 35pt;
+        }
+        .text-fishofSection3 , .textFishOfHuman {
+            font-size: 12pt;
+        }
+            .macbook ,.logo1{
+                margin-left: 0;
+            }  
+           .cupofCoffe{
+            float: right;
+            margin: 0;
+        }
+        #width{
+            width: 100%;
+        }  
+        .Clients{
+            margin-top: 5px !important;
+        }
+        .rght {
+            
+            margin-top: 10px;
+
+        }
+         
+        
+        
+       
+        
+
+     }
+     @media (max-width: 1400px) {
+        .text-fish{
+            width: 80%;
+        }
+        .text-fishofSection3 , .titleOfBrowser {
+            width: 100%;
+        }
+        .img-red-rectangle{
+           top: 240px;
+        }
+        .red-rectangle-2{
+           top: -50px;
+           width: 50%;
+        }
+        .macbook{
+            width: 40%;
+        }
+        .rght{
+            margin-left: 5px;
+        }
+       
+     }
+     @media (min-width: 1400px) {
+
+        .red-rectangle-2{
+            margin-bottom: -490px;
+        }
+        
+        .logo1{
+            margin-left: 50px;
+        } 
+        
+
+     }
+
+     @media (max-width: 405px) { 
+        .slogan ,  .main-text , .titleOfGroup  {
+            font-size: 20pt !important;
+            line-height: 35pt;
+        }
+        .text-fishofSection3 , .textFishOfHuman {
+            font-size: 10pt;
+        }
+        .underNameOfHuman{
+            margin-top: 20px;
+        }
+        .text-fishofSection3 , .textFishOfHuman {
+            font-size: 11pt !important;
+        }
+        .first-logo{
+            width: 100%;
+        }
+        .logo3{
+            margin-right: 30px !important;
+            margin-left: 0 !important;
+        }
+        
+     }
+     @media (max-width: 330px) { 
+
+        .slogan ,  .main-text , .titleOfGroup  {
+            font-size: 16pt !important;
+            line-height: 35pt;
+        }
+        .text-fishofSection3 , .textFishOfHuman {
+            font-size: 8pt !important;
+        }
+
+     }
+     @media (max-width: 320px) { 
+
+    .logo  {
+            margin: auto !important;
+           
+        }
+        .logo3{
+            margin-top: 30px !important;
+            margin-bottom: 30px !important;
+        }
+
+     }
+     @media (max-width: 275px) { 
+        .form-control-lg {
+            width: 150px !important;
+        }
+     }
