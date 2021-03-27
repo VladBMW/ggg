@@ -1,14 +1,21 @@
 
-
+video{
+    width:100%;
+    height:813px;
+    position: absolute;
+}
 
 header{
-    background-image: url("img/Archive/headerPhoto.gif");
+    /* background-image: url("img/Archive/headerPhoto.gif"); */
     background-repeat: no-repeat;
     background-size: cover;
     height: 813px;
     margin: auto;
     display: flex;
     justify-content: center;
+}
+.onVideo{
+    position: relative;
 }
 
 .btn-circle  {
@@ -137,6 +144,13 @@ header{
   
     
    
+}
+.none{
+    display: none;
+}
+.opacity{
+    opacity: 0;
+    margin-top: 405px;
 }
 .rel{
     position: relative  ;
@@ -616,6 +630,10 @@ right: 0;
         font-size: 30pt !important;
         margin-left: 0;
     }
+    .text-up{
+        margin-top: 190px;
+        line-height: 20pt;
+    }
     .red-mark , .text-fish{
         margin-left: 0;
        
@@ -831,6 +849,9 @@ right: 0;
         .less-margin , .titleOfBrowser {
             width: 100% !important;
         }
+        .dd{
+            margin-top: 0 !important;
+        }
     }
 
     @media (min-width: 1200px) { 
@@ -890,6 +911,9 @@ right: 0;
         }
         .rght{
             margin-left: 5px;
+        }
+        .dd{
+            margin-top: 30px;
         }
        
      }
@@ -955,5 +979,45 @@ right: 0;
      @media (max-width: 275px) { 
         .form-control-lg {
             width: 150px !important;
+        }
+     }
+     @media (max-width: 680px) { 
+        .main-text{
+            font-size: 20pt !important;
+            line-height: 25pt;
+           
+
+        }
+        .text-up{
+            margin-top: 240px;
+        }
+        .rectangle-red{
+          
+            height: 30px;
+           
+        }
+        .rectangle-red-text{
+            font-size: 15px;
+            line-height: 30px;
+        }
+     }
+     @media (max-width: 500px) { 
+        .text-up{
+            margin-top: 280px;
+        }
+     }
+     @media (max-width: 430px) { 
+        .text-up{
+            margin-top: 300px;
+        }
+        .text-under{
+            display: none;
+        }
+        .btn-circle{
+        width: 50px;
+        height: 50px;
+        }
+        .play{
+            margin-top: 13px;
         }
      }
