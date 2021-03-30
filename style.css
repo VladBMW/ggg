@@ -1,21 +1,34 @@
-
+body{
+    overflow-x:hidden;
+}
 video{
     width:100%;
     height:813px;
     position: absolute;
+    display: block;
+   
+        
 }
+video::-webkit-media-controls {
+    display:none !important;
+   
+}
+
+
 
 header{
     /* background-image: url("img/Archive/headerPhoto.gif"); */
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     height: 813px;
-    margin: auto;
-    display: flex;
+    width:100%;
+    border-left: none;
     justify-content: center;
 }
 .onVideo{
     position: relative;
+    
+    
 }
 
 .btn-circle  {

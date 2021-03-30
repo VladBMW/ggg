@@ -7,11 +7,17 @@ let rectangleRed = document.getElementById('rectangle-red');
 let under = document.getElementById('text-under');
 
 btn.addEventListener("click" , function(){
-    video.play(); 
+    if (video.paused) {
+        video.play()
+      } else {
+        video.pause()
+      }
     mainT.classList.toggle('none');
     rectangleRed.classList.toggle('none');
     under.classList.toggle('none');
     mainT2.classList.toggle('none');
     btn.classList.toggle('opacity');
 })
+
+
 
