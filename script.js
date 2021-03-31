@@ -17,7 +17,9 @@ btn.addEventListener("click" , function(){
     under.classList.toggle('none');
     mainT2.classList.toggle('none');
     btn.classList.toggle('opacity');
+    
 })
+
 
 
 

@@ -7,6 +7,9 @@ video{
     position: absolute;
     display: block;
    
+    object-fit: cover;
+    z-index: -100;
+   
         
 }
 video::-webkit-media-controls {
